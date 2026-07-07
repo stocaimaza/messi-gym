@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messi Gym - Entrená Como un Campeón</title>
+  <meta name="description" content="Bienvenido a Messi Gym. El templo de la disciplina, el rendimiento y la superación personal. Ofrecemos equipamiento de élite y planes personalizados.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVEGACIÓN -->
+  <header>
+    <div class="header-container">
+      <a href="#inicio" class="logo" id="nav-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18.5 5.5 3 3"/><path d="m2.5 15.5 3 3"/><path d="m15.5 2.5 3 3"/><path d="m5.5 18.5 3 3"/><path d="M10 14 8.4 12.4"/><path d="m14 10 1.6 1.6"/></svg>
+        MESSI<span>GYM</span>
+      </a>
+
+      <!-- CSS Hack Mobile Menu Toggle -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon" id="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#inicio" id="link-inicio">Inicio</a></li>
+        <li><a href="#nosotros" id="link-nosotros">Nosotros</a></li>
+        <li><a href="#clases" id="link-clases">Clases</a></li>
+        <li><a href="#testimonios" id="link-testimonios">Testimonios</a></li>
+        <li><a href="#planes" id="link-planes">Planes</a></li>
+        <li><a href="#contacto" id="link-contacto">Contacto</a></li>
+      </ul>
+
+      <div class="header-btn">
+        <a href="#planes" class="btn btn-primary" id="header-cta">Asociarse</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN 1: HERO / BANNER CENTRAL -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          Gimnasio Messi - Prepárate para el Cambio
+        </div>
+        <h1 class="text-gradient">El templo de la disciplina y el rendimiento</h1>
+        <p>Alcanzá tu máximo potencial físico y mental. En Messi Gym combinamos instalaciones de primer nivel, entrenadores profesionales y una comunidad de superación para acompañarte en tu transformación de vida.</p>
+        <div class="hero-btns">
+          <a href="#planes" class="btn btn-primary" id="hero-btn-primary">Ver Membresías</a>
+          <a href="#contacto" class="btn btn-outline" id="hero-btn-secondary">Contactar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: NOSOTROS / POR QUÉ ELEGIRNOS -->
+  <section class="features" id="nosotros">
+    <div class="container">
+      <div class="section-header">
+        <span>Nuestros Pilares</span>
+        <h2>¿Por qué entrenar en Messi Gym?</h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card" id="feature-1">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M20 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M6 12h12"/><path d="M12 4v16"/></svg>
+          </div>
+          <h3>Equipamiento de Élite</h3>
+          <p>Máquinas importadas de última generación diseñadas para optimizar la biomecánica de tu entrenamiento y garantizar la máxima seguridad en cada ejercicio.</p>
+        </div>
+
+        <div class="feature-card" id="feature-2">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Entrenadores Certificados</h3>
+          <p>Profesionales capacitados que diseñan planes de entrenamiento adaptados a tus objetivos individuales, ayudándote a corregir técnicas y evitar lesiones.</p>
+        </div>
+
+        <div class="feature-card" id="feature-3">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Planificación Integral</h3>
+          <p>Planes de entrenamiento orientados a resultados medibles, con seguimiento de progresos y recomendaciones para cambiar tu estilo de vida.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3: CLASES & SERVICIOS -->
+  <section class="classes" id="clases">
+    <div class="container">
+      <div class="section-header">
+        <span>Nuestras Especialidades</span>
+        <h2>Clases que desafían tus límites</h2>
+      </div>
+
+      <div class="classes-grid">
+        <!-- Tarjeta de Clase 1 -->
+        <div class="class-card" id="class-card-strength">
+          <img src="img/class_strength.jpg" alt="Fuerza e Hipertrofia" class="class-img">
+          <div class="class-overlay">
+            <span class="class-badge">Musculación</span>
+            <h3>Fuerza & Hipertrofia</h3>
+            <p>Desarrollá masa muscular y ganá fuerza con nuestra metodología de carga progresiva supervisada por profesionales.</p>
+            <a href="#contacto" class="class-link" id="link-class-strength">
+              Reservar Clase Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Tarjeta de Clase 2 -->
+        <div class="class-card" id="class-card-hiit">
+          <img src="img/class_hiit.jpg" alt="Cardio & HIIT" class="class-img">
+          <div class="class-overlay">
+            <span class="class-badge">Resistencia</span>
+            <h3>Cardio & HIIT</h3>
+            <p>Quemá calorías y mejorá tu resistencia cardiovascular con entrenamientos intensivos de alta velocidad.</p>
+            <a href="#contacto" class="class-link" id="link-class-hiit">
+              Reservar Clase Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Tarjeta de Clase 3 -->
+        <div class="class-card" id="class-card-boxing">
+          <img src="img/class_boxing.jpg" alt="Boxeo Funcional" class="class-img">
+          <div class="class-overlay">
+            <span class="class-badge">Coordinación</span>
+            <h3>Boxeo Funcional</h3>
+            <p>Mejorá tus reflejos, fuerza explosiva y liberá tensiones cotidianas en nuestras bolsas de entrenamiento.</p>
+            <a href="#contacto" class="class-link" id="link-class-boxing">
+              Reservar Clase Demo
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 4: TESTIMONIOS -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span>Casos de Éxito</span>
+        <h2>Vidas transformadas en Messi Gym</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonio 1 -->
+        <div class="testimonial-card" id="testi-card-1">
+          <div class="quote-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M11.192 15.757c0-.754-.025-1.43-.075-2.028a3.713 3.713 0 0 1-.02-.45c.01-.219.058-.403.143-.55.158-.278.434-.417.828-.417.158 0 .313.018.465.054.152.036.27.085.353.147.083.063.155.138.216.226.06.089.123.238.188.45.066.21.099.403.099.578 0 .285-.052.569-.156.852a3.791 3.791 0 0 1-.418.868c-.173.262-.36.48-.562.653a2.915 2.915 0 0 1-.653.418c-.22.103-.43.155-.629.155a.86.86 0 0 1-.628-.272c-.174-.183-.261-.418-.261-.704zM10.222 6c-2.435 0-4.402 1.967-4.402 4.402 0 1.258.528 2.391 1.378 3.197-.84.816-1.378 1.968-1.378 3.237 0 2.436 1.967 4.402 4.402 4.402a4.4 4.4 0 0 0 2.91-1.1c.548.71 1.413 1.1 2.378 1.1 1.666 0 3.016-1.35 3.016-3.016 0-.853-.354-1.62-.924-2.17.57-.55.924-1.317.924-2.17 0-1.666-1.35-3.016-3.016-3.016a3.003 3.003 0 0 0-2.378 1.1 4.398 4.398 0 0 0-2.91-1.102z"/></svg>
+          </div>
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Messi Gym me devolvió la energía. Bajé 20kg en un año de constancia. El ambiente no es intimidante, los profesores son excelentes y se preocupan por vos en cada ejercicio."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">LM</div>
+            <div class="author-info">
+              <h4>Lautaro Martínez</h4>
+              <span>Socio hace 14 meses</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="testimonial-card" id="testi-card-2">
+          <div class="quote-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M11.192 15.757c0-.754-.025-1.43-.075-2.028a3.713 3.713 0 0 1-.02-.45c.01-.219.058-.403.143-.55.158-.278.434-.417.828-.417.158 0 .313.018.465.054.152.036.27.085.353.147.083.063.155.138.216.226.06.089.123.238.188.45.066.21.099.403.099.578 0 .285-.052.569-.156.852a3.791 3.791 0 0 1-.418.868c-.173.262-.36.48-.562.653a2.915 2.915 0 0 1-.653.418c-.22.103-.43.155-.629.155a.86.86 0 0 1-.628-.272c-.174-.183-.261-.418-.261-.704zM10.222 6c-2.435 0-4.402 1.967-4.402 4.402 0 1.258.528 2.391 1.378 3.197-.84.816-1.378 1.968-1.378 3.237 0 2.436 1.967 4.402 4.402 4.402a4.4 4.4 0 0 0 2.91-1.1c.548.71 1.413 1.1 2.378 1.1 1.666 0 3.016-1.35 3.016-3.016 0-.853-.354-1.62-.924-2.17.57-.55.924-1.317.924-2.17 0-1.666-1.35-3.016-3.016-3.016a3.003 3.003 0 0 0-2.378 1.1 4.398 4.398 0 0 0-2.91-1.102z"/></svg>
+          </div>
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Buscaba una vía de escape para el estrés laboral y encontré un cambio de vida total. Hoy me siento más fuerte, disciplinada y motivada. El gimnasio se convirtió en mi lugar seguro."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SG</div>
+            <div class="author-info">
+              <h4>Sofía Gómez</h4>
+              <span>Socia hace 8 meses</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="testimonial-card" id="testi-card-3">
+          <div class="quote-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M11.192 15.757c0-.754-.025-1.43-.075-2.028a3.713 3.713 0 0 1-.02-.45c.01-.219.058-.403.143-.55.158-.278.434-.417.828-.417.158 0 .313.018.465.054.152.036.27.085.353.147.083.063.155.138.216.226.06.089.123.238.188.45.066.21.099.403.099.578 0 .285-.052.569-.156.852a3.791 3.791 0 0 1-.418.868c-.173.262-.36.48-.562.653a2.915 2.915 0 0 1-.653.418c-.22.103-.43.155-.629.155a.86.86 0 0 1-.628-.272c-.174-.183-.261-.418-.261-.704zM10.222 6c-2.435 0-4.402 1.967-4.402 4.402 0 1.258.528 2.391 1.378 3.197-.84.816-1.378 1.968-1.378 3.237 0 2.436 1.967 4.402 4.402 4.402a4.4 4.4 0 0 0 2.91-1.1c.548.71 1.413 1.1 2.378 1.1 1.666 0 3.016-1.35 3.016-3.016 0-.853-.354-1.62-.924-2.17.57-.55.924-1.317.924-2.17 0-1.666-1.35-3.016-3.016-3.016a3.003 3.003 0 0 0-2.378 1.1 4.398 4.398 0 0 0-2.91-1.102z"/></svg>
+          </div>
+          <div class="rating">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Luego de una lesión de meniscos, sentía miedo de volver al gimnasio. Los entrenadores crearon una rutina de readaptación impecable. Hoy levanto más peso que nunca y sin dolores."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MP</div>
+            <div class="author-info">
+              <h4>Martín Pérez</h4>
+              <span>Socio hace 2 años</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 5: PLANES DE MEMBRESÍA -->
+  <section class="plans" id="planes">
+    <div class="container">
+      <div class="section-header">
+        <span>Precios Claros</span>
+        <h2>Elegí tu plan de entrenamiento</h2>
+      </div>
+
+      <div class="plans-grid">
+        <!-- Plan 1 -->
+        <div class="plan-card" id="plan-card-basic">
+          <h3 class="plan-name">Pase Diario</h3>
+          <p class="plan-desc">Perfecto para quienes entrenan de forma ocasional</p>
+          <div class="plan-price">$1.500<span>/ día</span></div>
+          <ul class="plan-features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Acceso completo a sala de musculación
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Uso de vestuarios y lockers
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Acceso en horarios específicos
+            </li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline plan-btn" id="btn-select-basic">Comprar Pase</a>
+        </div>
+
+        <!-- Plan 2 (Popular) -->
+        <div class="plan-card popular" id="plan-card-pro">
+          <div class="plan-badge">Más Elegido</div>
+          <h3 class="plan-name">Pase Mensual</h3>
+          <p class="plan-desc">Entrenamiento constante y sin límites mensuales</p>
+          <div class="plan-price">$25.000<span>/ mes</span></div>
+          <ul class="plan-features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Acceso ilimitado 24/7
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Rutina personalizada inicial
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Acceso a todas las clases grupales
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Lockers y duchas premium
+            </li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary plan-btn" id="btn-select-pro">Comenzar Plan</a>
+        </div>
+
+        <!-- Plan 3 -->
+        <div class="plan-card" id="plan-card-vip">
+          <h3 class="plan-name">Pase Anual VIP</h3>
+          <p class="plan-desc">Compromiso total con tu salud y rendimiento</p>
+          <div class="plan-price">$240.000<span>/ año</span></div>
+          <ul class="plan-features">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Todo lo incluido en Pase Mensual
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              1 sesión de Personal Trainer mensual
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Seguimiento nutricional bimensual
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Remera de entrenamiento de Messi Gym gratis
+            </li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline plan-btn" id="btn-select-vip">Inscribirme Hoy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO DE CONTACTO -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Iniciá tu viaje hoy</h2>
+          <p>¿Tenés alguna duda o querés venir a conocer el gimnasio? Completá el formulario o comunicate con nosotros a través de cualquiera de nuestros canales oficiales.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Dirección</h4>
+                <p>Av. Coronel Díaz 1840, Palermo, CABA</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Teléfono</h4>
+                <p>+54 11 4872-9900</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div>
+                <h4>Correo Electrónico</h4>
+                <p>info@messigym.com.ar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <form action="#" method="POST" id="form-contact">
+            <div class="form-group">
+              <label for="name">Nombre Completo</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Ej. Lautaro Pérez" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Correo Electrónico</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="Ej. lautaro@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Mensaje / Consulta</label>
+              <textarea id="message" name="message" class="form-control" placeholder="¿En qué podemos ayudarte?" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%;" id="btn-submit-form">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 5px;"><path d="m6.5 6.5 11 11"/><path d="m21 21-1-1"/><path d="m3 3 1 1"/><path d="m18.5 5.5 3 3"/><path d="m2.5 15.5 3 3"/><path d="m15.5 2.5 3 3"/><path d="m5.5 18.5 3 3"/><path d="M10 14 8.4 12.4"/><path d="m14 10 1.6 1.6"/></svg>
+        MESSI<span>GYM</span>
+      </div>
+      
+      <div class="social-links">
+        <a href="#" aria-label="Instagram" id="social-ig">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+        </a>
+        <a href="#" aria-label="Facebook" id="social-fb">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter" id="social-tw">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+        </a>
+      </div>
+      
+      <p class="copyright">&copy; 2026 Messi Gym. Todos los derechos reservados. Diseñado para campeones.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
